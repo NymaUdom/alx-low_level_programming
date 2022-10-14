@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
+ * main- serve as the entry point.
  *
- * main - entry
- * return: 0 always
+ * return: return 0 if no error otherwise return non-zero value
  */
-int main (void)
+int main(serve as the entry point)
 {
-
 	puts("/Programming is like building a multilingual puzzle");
-	return(0);
-
+	return (0);
 }
