@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main-entry
- * return:0 if no error otherwise return error.
+ * main - Entry
+ * Return: Alway 0
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,/n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
