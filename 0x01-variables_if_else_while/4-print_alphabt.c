@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
- * main - Print Alpha in lowercase
- * Follow by new line except q and e
+ * main - Entry
  * Return: Always 0
  */
 int main(void)
 {
-	char la;
+	char i;
 
-	for (la = 'a', la <= 'z', la++)
+	for (i = 'a', i <= 'z', i++)
 	{
-		if (la != 'e' && la != 'q')
-			putchar(la);
+		if (i == 'e' || == 'q')
+			putchar(i);
 	}
 	putchar('\n');
 	return (0);
