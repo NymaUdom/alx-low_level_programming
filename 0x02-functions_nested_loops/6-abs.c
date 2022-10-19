@@ -1,18 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * abs - compute the absolute value of an interger
- * @t: the interger to be computed
- * Return: the absolute value
+ * _abs - computes the abs value of an int
+ * @n: the int in question
  *
+ * Return: the abs of the int
  */
-int _abs(int t);
+int _abs(int n)
 {
-	int k = 'a';
-	int absvalue;
-
-	if (k < 0)
-		k = k * (-1);
-	absvalue = k;
-	return (absvalue);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
