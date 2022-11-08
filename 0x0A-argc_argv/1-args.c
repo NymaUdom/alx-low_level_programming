@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - function to print its name
- * @argc: argc parameter
- * @argv: array of a command list
- * Return: 0 for success
+ * main - prints a number of arguments passed into it
+ * @argc: length of the argument passed
+ * @argv: arguments passed
+ * Return: success
  */
 int main(int argc, char *argv[] _attribute_((unused)))
 {
