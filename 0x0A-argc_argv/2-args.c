@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - function to print its name
- * @argc: argc parameter
- * @argv: array of command list
- * Return: 0
+ * main - prints all arguments it receives
+ * @argc: length of the aruments
+ * @argv: arguments received
+ * Return: success
  */
 int main(int argc, char *argv[])
 {
@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 		for (i = 0; i < argc; i++)
 		{
-		printf("%d = %s\n", i, argv[i]);
+		printf("%s\n", argv[i]);
 		}
 	return (0);
 }
